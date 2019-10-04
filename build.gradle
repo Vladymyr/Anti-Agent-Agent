@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'xyz.vladymyr.agent'
+version '1.2.6'
+
+sourceCompatibility = 1.8
+
+jar {
+    manifest {
+        attributes 'Premain-Class': 'xyz.vladymyr.agent.AntiAgentAgent',
+                'Can-Redefine-Classes': true
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.ow2.asm', name: 'asm', version: '7.1'
+    compile group: 'org.ow2.asm', name: 'asm-tree', version: '7.1'
+    compile group: 'org.ow2.asm', name: 'asm-util', version: '7.1'
+}

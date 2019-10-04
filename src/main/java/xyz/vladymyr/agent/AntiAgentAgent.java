@@ -50,8 +50,7 @@ public enum AntiAgentAgent implements ClassFileTransformer {
 	 * Transformer in charge of emptying {@link ClassFileTransformer#transform(ClassLoader, String, Class, ProtectionDomain, byte[])}
 	 * method due us wanting to prevent other agents. Works with lambda expressions too.
 	 */
-	private final static Transformer CLASS_TRANSFORMER_CLEANER = Transformer
-			.builder()
+	private final static Transformer CLASS_TRANSFORMER_CLEANER = Transformer.builder()
 			.withClassFilter((Class<?> cls, ClassNode classNode) -> {
 				boolean notNull = classNode != null;
 				boolean needsUpdate = false;

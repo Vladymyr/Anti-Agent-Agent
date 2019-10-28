@@ -24,7 +24,7 @@ import java.util.Map;
  * The problem with that solutions is that it can easily be bypassed modifying the program's bytecode to make it not relaunch itself like that
  * or by directly removing the check from OpenJDK's source.
  * <p>
- * Remember that went launching your program -javaagent argument must be before -jar
+ * Remember that when launching your program -javaagent argument must be before -jar
  *
  * @author Vladymyr
  * @version 01/10/2019

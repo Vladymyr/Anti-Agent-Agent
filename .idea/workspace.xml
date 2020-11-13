@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be9a900a-4a3f-4808-a8ba-06c7e8ee1297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Dumb-testing/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dumb-testing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dumb-testing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dumb-testing/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dumb-testing/src/main/java/xyz/vladymyr/dump/EpicString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dumb-testing/src/main/java/xyz/vladymyr/dump/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Learning Rust/minigrep/poem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Learning Rust/minigrep/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MCP - Remix 1.8/src/minecraft/dev/remixclient/module/types/ToggleableModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Security-API/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Security-API/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Security-API/src/test/java/xyz/vladymyr/testing/UserGenerationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../String Hash Patch/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../String Hash Patch/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../String Hash Patch/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../String Hash Patch/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/src/xyz/vladymyr/testing/LockedObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +16,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -84,7 +67,10 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -99,6 +85,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1kE1TAYf26CTSxld4HV2oyXyGQD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -146,23 +133,19 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Gradle.Anti-Agent-Agent [build]">
     <configuration name="Anti-Agent-Agent [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -181,7 +164,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Anti-Agent-Agent [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -200,7 +185,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -220,6 +207,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570270252970</updated>
+      <workItem from="1605250944430" duration="28000" />
     </task>
     <servers />
   </component>

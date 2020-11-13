@@ -74,17 +74,9 @@ public interface Transformer {
 		methodNode.instructions.clear();
 		generateReturn(methodNode.instructions, methodNode.desc);
 
-		int localSize = (methodNode.access & ACC_STATIC) != 0 ? 0 : 1;
-		Type[] argumentTypes = Type.getArgumentTypes(methodNode.desc);
-		for (Type argumentType : argumentTypes) {
-			localSize += argumentType.getSize();
-		}
-
 		methodNode.tryCatchBlocks.clear();
 		methodNode.localVariables.clear();
 		methodNode.exceptions.clear();
-		methodNode.maxStack = 0;
-		methodNode.maxLocals = localSize;
 	}
 
 	/**

@@ -77,8 +77,6 @@ public interface Transformer {
 		methodNode.tryCatchBlocks.clear();
 		methodNode.localVariables.clear();
 		methodNode.exceptions.clear();
-		methodNode.maxStack = 1;
-		methodNode.maxLocals = 1;
 	}
 
 	/**

@@ -242,7 +242,7 @@ public enum AntiAgentAgent implements ClassFileTransformer {
 	private ClassNode readClass(String name) throws IOException {
 		ClassReader reader = new ClassReader(name);
 		ClassNode node = new ClassNode();
-		reader.accept(node, ClassReader.SKIP_FRAMES);
+		reader.accept(node, 0);
 		return node;
 	}
 
@@ -265,7 +265,7 @@ public enum AntiAgentAgent implements ClassFileTransformer {
 			}
 		}
 
-		ClassWriter writer = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
+		ClassWriter writer = new ClassWriter(ClassWriter.COMPUTE_MAXS);
 		node.accept(writer);
 
 		LOADED_TRANSFORMED_CLASSES.add(node.name);
